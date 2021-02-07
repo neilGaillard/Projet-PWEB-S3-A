@@ -1,0 +1,63 @@
+*{
+    font-family: "Times New Roman", "Times", "serif";
+}
+
+body{
+    color: white!important;
+    background-image: url("../images/car.jpg")!important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover!important;
+}  
+
+.transparant{
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.centered{
+    margin: auto;
+    padding: auto;
+}
+
+.main{
+    border: 1px solid white;
+}
+
+#allHead{
+    background-color: black;
+}
+
+#Menu{
+    text-decoration: none;
+    margin-bottom: 1%;
+}
+
+#Menu a{
+    color: white;
+}
+
+.menuContent{
+    padding: 2%;
+    text-align: center;
+    justify-content: center;
+}
+
+.menuContent:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.justify-content-center{
+    justify-content: center;
+    text-align: center;
+}
+
+.sticky{
+    z-index: 99;
+}
+
+#header{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 2%;
+}
